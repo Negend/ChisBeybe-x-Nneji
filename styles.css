@@ -73,10 +73,11 @@ body {
   margin-bottom: 0;
 }
 
-/* .nav-masthead .nav-link {
+ .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: bold;
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,1);
+  text-shadow: 0 0 #f70000;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -92,8 +93,9 @@ body {
 
 .nav-masthead .active {
   color: #fff;
+  text-shadow: 0 0 #f70000;
   border-bottom-color: #fff;
-} */
+} 
 
 @media (min-width: 48em) {
   .masthead-brand {
@@ -123,7 +125,7 @@ body {
  */
 
 .mastfoot {
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,1);
 }
 
 
@@ -186,41 +188,48 @@ body{
     background-color: #000;
 }
 .grey-bg{
-    background-color: #5F5F5F;
+    background-color: rgb(200,200,200);
 }
 .red-bg{
-    background-color: #610606;
+    background-color: #ad0000;
 }
 .transparent-bg{
     background-color: transparent;
 }
-.opacity-90{
+/*.opacity-90{
     opacity: 0.9;
 }
 .opacity-95{
     opacity: 0.95;
-}
+}*/
 
 /* Font Colours */
 .red{
-  color: #610606;
+  color: rgba(214, 214, 214, 1);
+  text-shadow: -1px -1px 6px rgba(193, 0, 0, 0.92);
 }
 .grey{
   color: #5F5F5F;
 }
 p, h5{
-  color:#A9A9A9;
+  color:rgba(255,255,255,1);
 }
 
 /* Home */
 .display-1{
   font-family: 'Condiment', cursive;
-  font-size: 10rem;
+  font-size: 6rem;
 }
 
 /* Next Music */
 #music{
   color: #000000;
+}
+
+.release{
+  font-size: 1.5rem;
+  font-family: Arial;
+  color: rgb(240,240,240);
 }
 
 /* Player */
@@ -315,6 +324,14 @@ ul{
 .tshirt-6{ 
   content: url('./assets/6.png');
 }
+.Tee{
+  height:55vh;
+  width: 90vw;
+  display: block;
+  background: url('assets/Tees.png');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
 
 /* Contact */
 .icons{
@@ -324,4 +341,27 @@ ul{
 .iconsize{
   font-size: 3rem;
 }
+#white-home{
+  color: rgba(255,255,255,1);
+  text-shadow: 0 0 #f70000;
+}
+#white-music{
+  color: rgba(255,255,255,1);
+  text-shadow: 0 0 #f70000;
+}
+#white-events{
+  color: rgba(255,255,255,1);
+  text-shadow: 0 0 #f70000;
+}
+#white-shop{
+  color: rgba(255,255,255,1);
+  text-shadow: 0 0 #f70000;
+}
+#white-contact{
+  color: rgba(255,255,255,1);
+  text-shadow: 0 0 #f70000;
+}
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1)
+}
