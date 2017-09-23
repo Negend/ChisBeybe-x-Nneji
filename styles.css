@@ -218,7 +218,7 @@ p, h5{
 /* Home */
 .display-1{
   font-family: 'Condiment', cursive;
-  font-size: 6rem;
+  font-size: 14.3vw;
 }
 
 /* Next Music */
@@ -227,7 +227,7 @@ p, h5{
 }
 
 .release{
-  font-size: 1.5rem;
+  font-size: 4.5vw;
   font-family: Arial;
   color: rgb(240,240,240);
 }
@@ -325,7 +325,7 @@ ul{
   content: url('./assets/6.png');
 }
 .Tee{
-  height:55vh;
+  height:35vw;
   width: 90vw;
   display: block;
   background: url('assets/Tees.png');
@@ -339,7 +339,8 @@ ul{
 }
 
 .iconsize{
-  font-size: 3rem;
+  font-size: 2.6rem;
+  margin:auto;
 }
 #white-home{
   color: rgba(255,255,255,1);
