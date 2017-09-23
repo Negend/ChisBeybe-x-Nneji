@@ -291,6 +291,7 @@ p, h5{
 
 ul{
   list-style: none;
+  padding:0px;
 }
 /* Shop */
 #shop{
@@ -334,13 +335,14 @@ ul{
 }
 
 /* Contact */
-.icons{
+/*.icons{
   width: 50vw;
-}
+}*/
 
 .iconsize{
   font-size: 2.6rem;
-  margin:auto;
+  margin: 0 3px;
+
 }
 #white-home{
   color: rgba(255,255,255,1);
